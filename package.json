@@ -1,0 +1,19 @@
+{
+  "name": "@fdefelici/hello-npm",
+  "version": "1.0.0",
+  "description": "Hello Project to publish npm package with CI Toolchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdefelici/hello-npm.git"
+  },
+  "author": "Federico De Felici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdefelici/hello-npm/issues"
+  },
+  "homepage": "https://github.com/fdefelici/hello-npm#readme"
+}
