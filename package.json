@@ -12,6 +12,9 @@
   },
   "author": "Federico De Felici",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/fdefelici/hello-npm/issues"
   },

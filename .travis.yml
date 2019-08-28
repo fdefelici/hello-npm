@@ -9,3 +9,4 @@ deploy:
   on:
     tags: true
     repo: fdefelici/hello-npm
+  skip_cleanup: true
