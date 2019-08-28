@@ -1,10 +1,12 @@
 {
   "name": "@fdefelici/hello-npm",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Hello Project to publish npm package with CI Toolchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "version": "",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
