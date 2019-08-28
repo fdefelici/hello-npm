@@ -13,7 +13,7 @@
     "url": "git+https://github.com/fdefelici/hello-npm.git"
   },
   "author": "Federico De Felici",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
