@@ -2,6 +2,12 @@
   "name": "@fdefelici/hello-npm",
   "version": "0.1.4",
   "description": "Hello Project to publish npm package with CI Toolchain",
+  "keyworkds": [
+    "react",
+    "bootstrap",
+    "select",
+    "combo"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\"",
@@ -13,12 +19,6 @@
     "url": "git+https://github.com/fdefelici/hello-npm.git"
   },
   "author": "Federico De Felici",
-  "keyworkds": [
-    "react",
-    "bootstrap",
-    "select",
-    "combo"
-  ],
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/fdefelici/hello-npm/issues"
   },
-  "homepage": "https://github.com/fdefelici/hello-npm#npm"
+  "homepage": "https://github.com/fdefelici/hello-npm#readme"
 }
