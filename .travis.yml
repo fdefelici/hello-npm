@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - 7
+install:
+  - npm install -g codecov
+script:
+  - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
 deploy:
   provider: npm
   email: fdf8210@gmail.com
