@@ -1,6 +1,6 @@
 {
   "name": "@fdefelici/hello-npm",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Hello Project to publish npm package with CI Toolchain",
   "keywords": [
     "react",
