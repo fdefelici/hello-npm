@@ -4,6 +4,7 @@ node_js:
 install:
   - npm install -g codecov
 script:
+  - npm test
   - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
 deploy:
   provider: npm
