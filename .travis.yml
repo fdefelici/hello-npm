@@ -8,10 +8,10 @@ jobs:
         - echo $TRAVIS_TAG
     - stage: install
       script:
-        - npm install -g codecov
         - npm install
     - stage: test      
       script:
+        - npm install -g codecov
         - npm test
         - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
     - stage: deploy
