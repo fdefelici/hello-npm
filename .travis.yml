@@ -9,12 +9,15 @@ jobs:
     - stage: install
       script:
         - npm install
-    - stage: test      
+    - stage: test
+      install: skip
       script:
         - npm install -g codecov
         - npm test
         - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
     - stage: deploy
+      install: skip
+      script: skip
       deploy:
         provider: npm
         email: error@gmail.com
