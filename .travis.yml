@@ -40,7 +40,7 @@ jobs:
           #all_branches: true
           condiction: $TRAVIS_TAG == 2.*
         skip_cleanup: true
-        tag: latest
+        #tag: latest
         
 stages:
 - name: validate
