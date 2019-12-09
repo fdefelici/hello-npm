@@ -26,6 +26,7 @@ jobs:
       on:
         repo: fdefelici/hello-npm
       skip_cleanup: true
+      tag: prev
 stages:
 - name: validate
   if: tag IS present
