@@ -27,7 +27,7 @@ jobs:
           repo: fdefelici/hello-npm
           tags: true
           #all_branches: true
-          condiction: $TRAVIS_TAG == 1.*
+          condiction: $TRAVIS_TAG =~ ^1.
         skip_cleanup: true
         tag: previous
       - provider: npm
@@ -38,7 +38,7 @@ jobs:
           repo: fdefelici/hello-npm
           tags: true
           #all_branches: true
-          condiction: $TRAVIS_TAG == 2.*
+          condiction: $TRAVIS_TAG =~ ^2.
         skip_cleanup: true
         #tag: latest
         
