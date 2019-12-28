@@ -25,13 +25,13 @@ jobs:
     install: skip
     script: skip
     deploy:
-      - provider: npm
-        email: fdf8210@gmail.com
-        api_key:
-          secure: Ga+E9X02gB/VmED8759bYA6Z3EgC8ds2mOdmmfXw8o86p9jgWIuCKBrVuqSoYCul3cnWhb5Vg9jQFqH1jbkw7qsykq3gPxmA7/XVSphU6dRr0BXS4Pf5tLyX2Pnoe3wavJwgIFf/qoRqd98NTID6sDPQxqymeWLYSxW6D/9mLrv+fY682OvXkrxdWo5nxK2E4sNsq6gMbmYNfU1L9IDZG1JdJJEt58s2q1LsF89bPdU1cqhbjST6VwYw4fjHDmLh27je4gOiKBZKSdtL/4dYS9crubyYZIHCRIudnTD8DdXmMTQ0/MMO2diguVTu3UAHOfCxZO+nsUniI583vBYvwox51efGqs6EF05LeGrFFk+9YxtVGj6BvD6q43p95wG+vo51iH/t3idncMGWFngbX7m/SslOSAfaqDYmVlLc8Vgnh9ucR8bZ1gGBLfvDAr7EEwdFYmbG8u6GHt1m98SDaXaVhXoM6kTmS0haarM5kg1fwEk9UhXsuz9xVwHaTVadgEcB0e5WwmMRkVlzijDVbiWMDa2r23KUx/XIOq9T0NDJ1soOb1re9twTr7Df5+917mdLyUzLdo02wUAm4cgZ25xpgE69YLL/Yo0iMHIMtkkFIrWp/Mz5qnEpVbc8iKBuhh8dzwO11HNKfzKhfBl+NInjy0lOB+zwYX9QY9qD24s=
-        on:
-          repo: fdefelici/hello-npm
-        skip_cleanup: true
+#      - provider: npm
+#        email: fdf8210@gmail.com
+#        api_key:
+#          secure: Ga+E9X02gB/VmED8759bYA6Z3EgC8ds2mOdmmfXw8o86p9jgWIuCKBrVuqSoYCul3cnWhb5Vg9jQFqH1jbkw7qsykq3gPxmA7/XVSphU6dRr0BXS4Pf5tLyX2Pnoe3wavJwgIFf/qoRqd98NTID6sDPQxqymeWLYSxW6D/9mLrv+fY682OvXkrxdWo5nxK2E4sNsq6gMbmYNfU1L9IDZG1JdJJEt58s2q1LsF89bPdU1cqhbjST6VwYw4fjHDmLh27je4gOiKBZKSdtL/4dYS9crubyYZIHCRIudnTD8DdXmMTQ0/MMO2diguVTu3UAHOfCxZO+nsUniI583vBYvwox51efGqs6EF05LeGrFFk+9YxtVGj6BvD6q43p95wG+vo51iH/t3idncMGWFngbX7m/SslOSAfaqDYmVlLc8Vgnh9ucR8bZ1gGBLfvDAr7EEwdFYmbG8u6GHt1m98SDaXaVhXoM6kTmS0haarM5kg1fwEk9UhXsuz9xVwHaTVadgEcB0e5WwmMRkVlzijDVbiWMDa2r23KUx/XIOq9T0NDJ1soOb1re9twTr7Df5+917mdLyUzLdo02wUAm4cgZ25xpgE69YLL/Yo0iMHIMtkkFIrWp/Mz5qnEpVbc8iKBuhh8dzwO11HNKfzKhfBl+NInjy0lOB+zwYX9QY9qD24s=
+#        on:
+#          repo: fdefelici/hello-npm
+#        skip_cleanup: true
       - provider: releases
         api_key:
            secure: KoVwGwviD78WssR6FhRhsG/8nPH6VleVjFI0EMjWeVkZn1cKWhv1duv6P53oKkv4Kc0K/m/It1Y5LVgLRbBoekr61XVkdp5u7NcSYCnseBceE+Cfs0iUZVxUjcMWhoc9r9c7C8NoXl68anylmu+laXlUTPPSDBgz1zoEiuvCuNqozzajeNAVQXj5vQFORx5/Jwnq8UBQRnwido6hi8pCfmGgFhmOOBX+ytrRcb+BWAkXoMz035DgBsXyXUVPnJhksWWAQQ/cDjCimpaDuYJmDq12EJhPEuvZqAbjdP9NrZ91o8yGutO2xguZViSeUBqFt42bD/DmcoFkrZn/T+7Q6zpmperjP3O6oyjYAxUG7dfj6YqGS5jmc+LGrtUVPfFeIO6enFkkqHiQ8Gw1X+KhwBk4RxyVym1jyQMdF5xEyM7/iksez1qMndaHVTynDWXOa620uMVJbqNUTihBUelkxGyMtQBSyitpFfUZyOgk7ofNR5GpCE+7rqiNc43fIw224TK+yFuG7juEOckg9NsM0U/NhxUxFBhOR3mjno9HGdg+twoVymjYP9rCbJmN0IcVDAyIXOKGgXfg15jQ0Qx9A6pyN5iAatdNQGZG/zwYNf+3eyRsa/u4KZayddRsrW+UKIUQ/xqM+huj4R4lhSWGM8P6GEKCn3N4Fb79bMItouo=
