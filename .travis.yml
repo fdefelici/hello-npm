@@ -17,12 +17,12 @@ deploy:
       repo: fdefelici/hello-npm
       tags: true
    skip_cleanup: true
-#after_deploy:
-#  - provider: releases
-#    api_key:
-#       secure: KoVwGwviD78WssR6FhRhsG/8nPH6VleVjFI0EMjWeVkZn1cKWhv1duv6P53oKkv4Kc0K/m/It1Y5LVgLRbBoekr61XVkdp5u7NcSYCnseBceE+Cfs0iUZVxUjcMWhoc9r9c7C8NoXl68anylmu+laXlUTPPSDBgz1zoEiuvCuNqozzajeNAVQXj5vQFORx5/Jwnq8UBQRnwido6hi8pCfmGgFhmOOBX+ytrRcb+BWAkXoMz035DgBsXyXUVPnJhksWWAQQ/cDjCimpaDuYJmDq12EJhPEuvZqAbjdP9NrZ91o8yGutO2xguZViSeUBqFt42bD/DmcoFkrZn/T+7Q6zpmperjP3O6oyjYAxUG7dfj6YqGS5jmc+LGrtUVPfFeIO6enFkkqHiQ8Gw1X+KhwBk4RxyVym1jyQMdF5xEyM7/iksez1qMndaHVTynDWXOa620uMVJbqNUTihBUelkxGyMtQBSyitpFfUZyOgk7ofNR5GpCE+7rqiNc43fIw224TK+yFuG7juEOckg9NsM0U/NhxUxFBhOR3mjno9HGdg+twoVymjYP9rCbJmN0IcVDAyIXOKGgXfg15jQ0Qx9A6pyN5iAatdNQGZG/zwYNf+3eyRsa/u4KZayddRsrW+UKIUQ/xqM+huj4R4lhSWGM8P6GEKCn3N4Fb79bMItouo=
-#    file: asset.zip
-#    on:
-#      repo: fdefelici/hello-npm
-#      tags: true
-#    skip_cleanup: true
+after_deploy:
+ - provider: releases
+   api_key:
+      secure: KoVwGwviD78WssR6FhRhsG/8nPH6VleVjFI0EMjWeVkZn1cKWhv1duv6P53oKkv4Kc0K/m/It1Y5LVgLRbBoekr61XVkdp5u7NcSYCnseBceE+Cfs0iUZVxUjcMWhoc9r9c7C8NoXl68anylmu+laXlUTPPSDBgz1zoEiuvCuNqozzajeNAVQXj5vQFORx5/Jwnq8UBQRnwido6hi8pCfmGgFhmOOBX+ytrRcb+BWAkXoMz035DgBsXyXUVPnJhksWWAQQ/cDjCimpaDuYJmDq12EJhPEuvZqAbjdP9NrZ91o8yGutO2xguZViSeUBqFt42bD/DmcoFkrZn/T+7Q6zpmperjP3O6oyjYAxUG7dfj6YqGS5jmc+LGrtUVPfFeIO6enFkkqHiQ8Gw1X+KhwBk4RxyVym1jyQMdF5xEyM7/iksez1qMndaHVTynDWXOa620uMVJbqNUTihBUelkxGyMtQBSyitpFfUZyOgk7ofNR5GpCE+7rqiNc43fIw224TK+yFuG7juEOckg9NsM0U/NhxUxFBhOR3mjno9HGdg+twoVymjYP9rCbJmN0IcVDAyIXOKGgXfg15jQ0Qx9A6pyN5iAatdNQGZG/zwYNf+3eyRsa/u4KZayddRsrW+UKIUQ/xqM+huj4R4lhSWGM8P6GEKCn3N4Fb79bMItouo=
+   file: asset.zip
+   on:
+     repo: fdefelici/hello-npm
+     tags: true
+   skip_cleanup: true
