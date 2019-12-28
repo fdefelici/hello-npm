@@ -15,6 +15,11 @@ jobs:
     - npm install -g codecov
     - npm test
     - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
+  - stage: asset
+    script:
+    - mkdir release
+    - cp *.js release/
+    - zip -r asset.zip release/*
     - ls -l
   - stage: deploy
     install: skip
@@ -31,7 +36,8 @@ stages:
 - name: validate
   if: tag IS present
 - install
-- test
+#- test
+- asset
 - name: deploy
   #if: tag IS present
   
