@@ -15,6 +15,7 @@ jobs:
     - npm install -g codecov
     - npm test
     - codecov --token=2d6f5593-63fe-418d-aaed-fa7c2f82c0eb
+    - ls -l
   - stage: deploy
     install: skip
     script: skip
